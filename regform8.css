@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    background-image: url("https://media.istockphoto.com/id/1259867601/vector/modern-banner-important-we-want-your-feedback-banner-for-business-marketing-and-advertising.jpg?s=612x612&w=is&k=20&c=7kaBJuwZMjmYh6RMVgcnRowAO7yfy_ZAOR6-K_glHbU=");
+    background-size: 100% auto;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20vh; /* Adjust the value to vertically position the form */
+    padding: 20px;
+    background-color: #755c5c;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#username,
+#email,
+#password {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: aqua;
+    color: black;
+}
+
+#username:focus,
+#email:focus,
+#password:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.submit-btn {
+    display: block;
+    width: 20%;
+    padding: 10px 20px;
+    background-color: #6137a4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: beige;
+}
+
+.form-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: aqua;
+    color: black;
+}
+
+/* Checkbox style */
+.form-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Checkbox input */
+.form-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Checkbox checkmark */
+.form-checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+/* Checkbox checkmark when checked */
+.form-checkbox input:checked ~ .checkmark {
+    background-color: #4CAF50;
+}
+
+/* Checkbox checkmark icon */
+.form-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Checkbox checkmark icon when checked */
+.form-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Checkbox checkmark icon style */
+.form-checkbox .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+input:read-only {
+    background-color: #f2f2f2;
+    color: #999;
+    cursor: not-allowed;
+}

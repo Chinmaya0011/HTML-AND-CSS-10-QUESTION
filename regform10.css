@@ -1,0 +1,43 @@
+/* registration.css */
+
+/* Form container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Form label style */
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Form input style */
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Form radio button style */
+.form-radio:checked + .form-radio-label {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Submit button style */
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #6137a4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}

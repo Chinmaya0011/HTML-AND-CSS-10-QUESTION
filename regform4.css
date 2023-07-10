@@ -1,0 +1,26 @@
+/* registration.css */
+
+/* Background image */
+body {
+    background-image: url('background-g576da0c8b_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Form styles */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Other form styles go here */
